@@ -26,9 +26,14 @@ def process_weather_data_to_csv(input_files, output_file, daily_output_file):
         with open(input_file, "r") as json_file:
             data = json.load(json_file)
             for entry in data:
-                hour_data = entry["data"][
-                    0
-                ]  # Access the single entry in the 'data' list
+                try:
+                    hour_data = entry["data"][
+                        0
+                    ]  # Access the single entry in the 'data' list
+                except KeyError as e:
+                    print(f"Exception occured data file {input_file}.")
+                    print(e)
+                    exit()
 
                 dt = datetime.fromtimestamp(hour_data["dt"])
                 date = dt.strftime("%Y-%m-%d")
