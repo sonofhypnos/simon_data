@@ -21,6 +21,7 @@ Steps:
 - [ ] download data (until you have all data for last months)
  - [ ] open `fetch_open_weather.py`
  - [ ] change the variables for `days_since`, and `days_forward` to determine for which time_window you want to download data
+ - [ ] check if the coordinates specified in the file still apply to simon's current location
  - [ ] run `fetch_open_weather.py` (Make sure your data overlaps by 2 days with previous data or you might get missing data within 1 day!)
 - [ ] turn the data to csv data:
   - [ ] open `process_sun_data.py`

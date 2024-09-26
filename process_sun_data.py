@@ -76,7 +76,7 @@ input_json_files = [
     "data/weather/weather_data_2024-05-01_2024-06-01.json",
     "data/weather/weather_data_2024-06-01_2024-07-01.json",
     "data/weather/weather_data_2024-06-30_2024-07-29.json",
-    "data/weather/weather_data_2024-07-08_2024-08-06.json",
+    "data/weather/weather_data_2024-07-28_2024-08-01.json",
     "data/weather/weather_data_2024-07-30_2024-08-31.json",
     "data/weather/weather_data_2024-08-25_2024-09-23.json",
 ]
