@@ -3,3 +3,4 @@
 .venv3.9
 
 data/Simon\ Data*
+__pycache__
