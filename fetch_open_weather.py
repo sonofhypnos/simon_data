@@ -49,7 +49,7 @@ def save_weather_data():
     date_formatting = "%Y-%m-%d"
     # Save the data to a JSON file
     with open(
-        f"weather_data_{start_date.strftime(date_formatting)}_{end_date.strftime(date_formatting)}.json",
+        f"data/weather/weather_data_{start_date.strftime(date_formatting)}_{end_date.strftime(date_formatting)}.json",
         "w",
     ) as file:
         json.dump(data, file)
