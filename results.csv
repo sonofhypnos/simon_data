@@ -1,0 +1,141 @@
+Predictor Variable,Shift (days),Outcome Variable,Pearson Correlation,P-value,Sample Size
+nausea,0,average energy levels,0.478,0.018,24
+nausea,1,average energy levels,0.079,0.721,23
+nausea,2,average energy levels,0.079,0.727,22
+sleep_duration,0,average energy levels,-0.031,0.794,74
+sleep_duration,1,average energy levels,0.082,0.492,73
+sleep_duration,2,average energy levels,0.042,0.724,72
+potassium,0,average energy levels,-0.028,0.877,32
+potassium,1,average energy levels,-0.181,0.329,31
+potassium,2,average energy levels,0.041,0.830,30
+magnesium,0,average energy levels,0.070,0.712,30
+magnesium,1,average energy levels,0.186,0.334,29
+magnesium,2,average energy levels,-0.243,0.213,28
+iodine,0,average energy levels,0.013,0.913,74
+iodine,1,average energy levels,-0.089,0.452,73
+iodine,2,average energy levels,0.143,0.229,72
+omega3,0,average energy levels,-0.032,0.796,68
+omega3,1,average energy levels,-0.217,0.078,67
+omega3,2,average energy levels,0.088,0.480,66
+vitamin_d,0,average energy levels,0.012,0.921,68
+vitamin_d,1,average energy levels,-0.243,0.048,67
+vitamin_d,2,average energy levels,-0.079,0.530,66
+creatine_randomized,0,average energy levels,-0.027,0.902,23
+creatine_randomized,1,average energy levels,-0.177,0.430,22
+creatine_randomized,2,average energy levels,0.016,0.945,21
+masturbation,0,average energy levels,-0.171,0.145,74
+masturbation,1,average energy levels,-0.174,0.141,73
+masturbation,2,average energy levels,-0.145,0.223,72
+masturbate_before_sleep,0,average energy levels,-0.315,0.006,74
+masturbate_before_sleep,1,average energy levels,-0.180,0.127,73
+masturbate_before_sleep,2,average energy levels,-0.252,0.033,72
+melatonin,0,average energy levels,-0.035,0.770,74
+melatonin,1,average energy levels,0.126,0.286,73
+melatonin,2,average energy levels,0.071,0.553,72
+melatonin_randomized,0,average energy levels,-0.249,0.251,23
+melatonin_randomized,1,average energy levels,-0.267,0.230,22
+melatonin_randomized,2,average energy levels,0.177,0.443,21
+caffeine,0,average energy levels,-0.081,0.492,74
+caffeine,1,average energy levels,-0.207,0.078,73
+caffeine,2,average energy levels,-0.293,0.013,72
+porn,0,average energy levels,-0.105,0.372,74
+porn,1,average energy levels,-0.246,0.036,73
+porn,2,average energy levels,0.073,0.543,72
+probiotic,1,nausea,-0.295,0.136,27
+probiotic,2,nausea,0.279,0.158,27
+gluten,1,nausea,0.079,0.701,26
+gluten,2,nausea,0.248,0.233,25
+magnesium,1,nausea,0.311,0.114,27
+magnesium,2,nausea,-0.266,0.181,27
+potassium,1,nausea,0.058,0.774,27
+potassium,2,nausea,0.214,0.283,27
+iodine,1,nausea,0.101,0.617,27
+iodine,2,nausea,-0.458,0.016,27
+omega3,1,nausea,0.383,0.049,27
+omega3,2,nausea,-0.208,0.298,27
+vitamin_d,1,nausea,0.164,0.415,27
+vitamin_d,2,nausea,-0.503,0.007,27
+creatine_randomized,1,nausea,-0.108,0.607,25
+creatine_randomized,2,nausea,-0.251,0.237,24
+masturbation,1,nausea,-0.136,0.498,27
+masturbation,2,nausea,0.223,0.264,27
+masturbate_before_sleep,1,nausea,-0.113,0.574,27
+masturbate_before_sleep,2,nausea,-0.113,0.574,27
+melatonin,1,nausea,-0.043,0.831,27
+melatonin,2,nausea,-0.133,0.509,27
+melatonin_randomized,1,nausea,-0.108,0.608,25
+melatonin_randomized,2,nausea,-0.185,0.386,24
+caffeine,1,nausea,nan,nan,27
+caffeine,2,nausea,nan,nan,27
+porn,1,nausea,-0.255,0.199,27
+porn,2,nausea,0.371,0.057,27
+nausea,0,sleep_duration,-0.060,0.767,27
+nausea,0,time_in_bed,0.224,0.260,27
+nausea,0,standup_delta,0.055,0.785,27
+nausea,0,woke_up_delta,-0.041,0.838,27
+nausea,0,time_to_fall_asleep,0.371,0.057,27
+sleep_duration,0,sleep_duration,1.000,0.000,87
+sleep_duration,0,time_in_bed,0.415,0.000,86
+sleep_duration,0,standup_delta,0.128,0.242,86
+sleep_duration,0,woke_up_delta,0.633,0.000,87
+sleep_duration,0,time_to_fall_asleep,-0.133,0.219,87
+potassium,0,sleep_duration,0.137,0.419,37
+potassium,0,time_in_bed,-0.151,0.373,37
+potassium,0,standup_delta,-0.189,0.262,37
+potassium,0,woke_up_delta,-0.033,0.846,37
+potassium,0,time_to_fall_asleep,-0.256,0.126,37
+magnesium,0,sleep_duration,0.127,0.474,34
+magnesium,0,time_in_bed,0.100,0.573,34
+magnesium,0,standup_delta,0.065,0.715,34
+magnesium,0,woke_up_delta,0.038,0.833,34
+magnesium,0,time_to_fall_asleep,-0.155,0.382,34
+iodine,0,sleep_duration,0.204,0.059,86
+iodine,0,time_in_bed,0.056,0.605,86
+iodine,0,standup_delta,-0.072,0.508,86
+iodine,0,woke_up_delta,0.068,0.531,86
+iodine,0,time_to_fall_asleep,0.092,0.398,86
+omega3,0,sleep_duration,0.164,0.148,79
+omega3,0,time_in_bed,-0.075,0.509,79
+omega3,0,standup_delta,0.043,0.704,79
+omega3,0,woke_up_delta,0.181,0.110,79
+omega3,0,time_to_fall_asleep,-0.008,0.944,79
+vitamin_d,0,sleep_duration,-0.156,0.169,79
+vitamin_d,0,time_in_bed,-0.162,0.152,79
+vitamin_d,0,standup_delta,-0.185,0.103,79
+vitamin_d,0,woke_up_delta,-0.104,0.361,79
+vitamin_d,0,time_to_fall_asleep,0.101,0.375,79
+creatine_randomized,0,sleep_duration,-0.254,0.210,26
+creatine_randomized,0,time_in_bed,0.002,0.993,26
+creatine_randomized,0,standup_delta,0.073,0.723,26
+creatine_randomized,0,woke_up_delta,0.065,0.752,26
+creatine_randomized,0,time_to_fall_asleep,0.362,0.069,26
+masturbation,0,sleep_duration,-0.167,0.123,87
+masturbation,0,time_in_bed,-0.053,0.627,86
+masturbation,0,standup_delta,0.157,0.149,86
+masturbation,0,woke_up_delta,0.015,0.890,87
+masturbation,0,time_to_fall_asleep,0.110,0.311,87
+masturbate_before_sleep,0,sleep_duration,-0.115,0.290,87
+masturbate_before_sleep,0,time_in_bed,-0.220,0.041,86
+masturbate_before_sleep,0,standup_delta,-0.058,0.594,86
+masturbate_before_sleep,0,woke_up_delta,-0.047,0.663,87
+masturbate_before_sleep,0,time_to_fall_asleep,0.129,0.235,87
+melatonin,0,sleep_duration,-0.088,0.416,87
+melatonin,0,time_in_bed,-0.034,0.758,86
+melatonin,0,standup_delta,0.078,0.477,86
+melatonin,0,woke_up_delta,0.046,0.673,87
+melatonin,0,time_to_fall_asleep,0.072,0.505,87
+melatonin_randomized,0,sleep_duration,-0.197,0.336,26
+melatonin_randomized,0,time_in_bed,-0.137,0.505,26
+melatonin_randomized,0,standup_delta,0.027,0.896,26
+melatonin_randomized,0,woke_up_delta,0.060,0.770,26
+melatonin_randomized,0,time_to_fall_asleep,0.382,0.054,26
+caffeine,0,sleep_duration,-0.112,0.303,87
+caffeine,0,time_in_bed,-0.232,0.031,86
+caffeine,0,standup_delta,-0.063,0.566,86
+caffeine,0,woke_up_delta,0.011,0.920,87
+caffeine,0,time_to_fall_asleep,-0.028,0.796,87
+porn,0,sleep_duration,-0.176,0.104,87
+porn,0,time_in_bed,-0.175,0.107,86
+porn,0,standup_delta,0.185,0.088,86
+porn,0,woke_up_delta,0.068,0.530,87
+porn,0,time_to_fall_asleep,0.047,0.667,87
